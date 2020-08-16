@@ -1,0 +1,76 @@
+html, body { 
+    min-height: 100%;
+}
+.wrapper {
+    box-sizing: border-box;
+        position: relative;
+        margin: 0 auto;
+        height: 620px;
+        background-color: #fff;
+}
+.header-right {
+        float: right;
+        margin-right: 10px;
+}
+.header-left {
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+.footer-left {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.footer-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+#logoimg {
+        position: absolute;
+        top: 25%;
+        left: 40%;
+}
+#textbox {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    width: 40%;
+    height: 30px;
+    border-radius: 15px;
+}
+.button {
+        position: absolute;
+        top:55%;
+        left: 40%;
+        text-decoration-color: #5f6368;
+
+}
+.header-right a {
+    margin: 10px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.87)
+}
+.header-left a {
+    margin: 10px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.87)
+}
+.footer-right a {
+    margin: 10px;
+    font-size: 14px;
+    color: #5f6368
+}
+.footer-left a {
+    margin: 10px;
+    font-size: 14px;
+    color: #5f6368
+}
+.searcharea {
+    display: block;
+}
+.button a {
+    padding: 10px;
+    margin: 10px;
+}
